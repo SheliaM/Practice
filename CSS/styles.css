@@ -1,0 +1,58 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #349DBD;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#subtext {
+  text-align: center;
+}
+
+h2 {
+  text-align: left; 
+  padding: 20px; 
+}
+
+table {
+  width: 600px;
+  margin-left: 20px;
+}
+
+#tabtit {
+  text-align: center;
+  border-bottom: 2px solid #111111;
+  border-top: 2px solid #111111;
+  border-left: 2px solid #111111;
+  border-right: 2px solid #111111;
+}
+th, td {
+  padding: 7px 10px 10 px 10px;
+  border-bottom: 2px solid #111111;
+  border-top: 2px solid #111111;
+  border-left: 2px solid #111111;
+  border-right: 2px solid #111111;
+}
+
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  border-bottom: 2px solid #111111;
+  border-top: 2px solid #111111;
+  border-left: 2px solid #111111;
+  border-right: 2px solid #111111;
+}
+
+td {
+  text-align: center;
+}  
+
+.col {
+  text-align: center;
+}

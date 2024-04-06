@@ -1,0 +1,71 @@
+<!--  New Practice Project -->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>This is the Title of the Page</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Various Practice Modules</h1>
+        <p id="subtext">Each module will have an introduction and will include some level of interactivity.</p><hr>
+
+        <div>
+            <h2>Simple Table</h2><!-- creating a simple 3X3 table with borders -->
+            <table>
+                <tr> 
+                    <th id="tabtit" colspan="4">Practice Table</th>
+                </tr>
+                <tr>
+                    <th class="col"></th>
+                    <th class="col">Column 1</th>
+                    <th class="col">Column 2</th>
+                    <th class="col">Column 3</th>
+                </tr>
+                <tr>
+                    <th class="row">Row 1</th>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <th class="row">Row 2</th>
+                    <td>62</td>
+                    <td>12</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <th class="row">Row 3</th>
+                    <td>45</td>
+                    <td>20</td>
+                    <td>32</td>    
+                </tr>
+            </table>    
+        </div>    
+
+       <!-- Browser-sync Script -->
+        <script id="__bs_script__">//<![CDATA[
+            (function() {
+              try {
+                 var script = document.createElement('script');
+                 if ('async') {
+                  script.async = true;
+                 }
+                 script.src = 'http://HOST:3006/browser-sync/browser-sync-client.js?v=3.0.2'.replace("HOST", location.hostname);
+                 if (document.body) {
+                  document.body.appendChild(script);
+                 } else if (document.head) {
+                  document.head.appendChild(script);
+                 }
+             } catch (e) {
+               console.error("Browsersync: could not append script tag", e);
+             }
+            })()
+          //]]></script>
+       <!-- End of Browser-sync Script -->
+
+    </body>
+</html>
